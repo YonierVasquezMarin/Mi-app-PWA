@@ -1,0 +1,27 @@
+{
+    "name": "Mi app PWA",
+    "short_name": "Mi app PWA",
+    "start_url": "",
+    "description": "Enterate de datos simples y sencillos para aprender a crear una PWA",
+    "lang": "es",
+    "background_color": "white",
+    "theme_color": "white",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "assets/imgs/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/imgs/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/imgs/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
