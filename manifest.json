@@ -1,7 +1,7 @@
 {
     "name": "Mi app PWA",
     "short_name": "Mi app PWA",
-    "start_url": "",
+    "start_url": "https://yoniervasquezmarin.github.io/Mi-app-PWA/",
     "description": "Enterate de datos simples y sencillos para aprender a crear una PWA",
     "lang": "es",
     "background_color": "white",
