@@ -1,98 +1,16 @@
 <!DOCTYPE html>
-<!-- Finished in 23/01/2021. You can use this freely.
-    Author: Yonier Vasquez Marin (yoniervasquezmarin.github.io) -->
-
 <html lang="es">
 <head>
-    <title>Mi app PWA</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Enterate de datos simples y sencillos para aprender a crear una PWA">
-    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/png">
-    <link rel="stylesheet" href="styles/general-styles.css">
+    <title>Lista de proyectos</title>
 </head>
 <body>
-    <main>
-        <header>
-            <h1 id="title">Bienvenido(a) a mi primera aplicación de tipo PWA</h1>
-        </header>
-        <!-- Preguntas -->
-        <div class="box">
-            <div class="lineWithColor"></div>
-            <section class="textBox">
-                <h2 class="question">¿Qué expone esta app?</h2>
-                <p>Esta app explica que es una PWA y unos simples pasos de introducción para crear una.</p>
-            </section>
-        </div>
-        <div class="box">
-            <div class="lineWithColor"></div>
-            <section class="textBox">
-                <h2 class="question">¿Qué es una PWA?</h2>
-                <p>Primero la definición de sus letras.
-                PWA significa Progressive Web App (traducido al castellano, <em>App Web Progresiva</em>). 
-                Las apps de tipo PWA se desarrollan con tecnologías web, por tanto se pueden 
-                usar lenguajes HTML, CSS y JS para crear nuestra app.</p>
-                <p>Una PWA es una página web la cual contiene unos códigos extra que ordena al 
-                navegador del usuario invitarle a añadir esta página al escritorio, cuando 
-                el usuario realice esto, se creará un icono en el menú simulando ser una app 
-                normal.</p>
-                <p>La app PWA añadida por el usuario será como una app nativa, tendrá interfaces, 
-                iconos, etc, simulando ser una app normal.</p>
-            </section>
-        </div>
-        <div class="box">
-            <div class="lineWithColor"></div>
-            <section class="textBox">
-                <h2 class="question">¿Cómo añadir una PWA a mi smartphone?</h2>
-                <p>El usuario debe dirigirse a la página web usando un navegador 
-                moderno y que permita instalar PWAs. Cuando el usuario esté 
-                en dicha página, el navegador solicitará permiso para añadir 
-                la nueva app, el usuario debe aceptar añadir la app al menú, 
-                y listo, la app fue instalada.</p>
-            </section>
-        </div>
-        <div class="box">
-            <div class="lineWithColor"></div>
-            <section class="textBox">
-                <h2 class="question">¿Cómo yo puedo crear mi propia app PWA?</h2>
-                <p>Para craer una app PWA, principalmente debes desarrollar un 
-                proyecto web, a este proyecto web le agregas unos códigos 
-                complementarios como se explica a continuación, y listo, 
-                terminarás tu app PWA.</p>
-            </section>
-        </div>
-        <div class="box">
-            <div class="lineWithColor"></div>
-            <section class="textBox">
-                <h2 class="question">¿Cuáles son los pasos para crear mi PWA?</h2>
-                <p>En simples pasos:</p>
-                <p><strong>Paso 1.</strong> Crea el <code>Manifest.json</code>. En este 
-                archivo se declara el nombre, los iconos, la orientación de la app, etc, 
-                cosas acerca de nuestra app. Para más información visita la página 
-                oficial la cual continene todos los 
-                detalles (<a href="https://w3c.github.io/manifest/" target="_blank">https://w3c.github.io/manifest/</a>).</p>
-                <p><strong>Paso 2.</strong> Crea el <code>service-worker.js</code>. Es crear 
-                un JS especial en donde se ejecuta la instalación de la PWA y se guarda en 
-                caché los recursos y utilidades de la app.</p>
-                <p><strong>Paso 3.</strong> Registra el <code>service-worker.js</code> desde 
-                un JS. Es añadir unas pequeñas lineas de código que permiten saber si el 
-                navegador es compatible con el Service Worker, si es así, se procede a 
-                registar nuestro archivo <code>service-worker.js</code>.</p>
-                <p>Nuestro archivo <code>service-worker.js</code> puede ir en cualquier lugar, aunque 
-                normalmente se elige ubicarlo paralelamente al <code>index.html</code>. 
-                El archivo <code>service-worker.js</code> no se declara usando la 
-                etiqueta <code>script</code> aunque este sea un script; este archivo se 
-                mantiene oculto y no aparece en ninguna parte del <code>index.html</code></p>
-            </section>
-        </div>
-    </main>
-
-    <!-- Line color definer -->
-    <script src="scripts/line-color-definer.js"></script>
-
-    <footer>
-        <span>2021</span>
-        <span>versión 2.0</span>
-    </footer>
+    <h1>Proyectos locales:</h1>
+    <ul>
+        <li><a href="Welcome/index.html">Colección de Apps</a></li>
+	<li><a href="Experimentacion/index.html">Experimentación</a></li>
+	<li><a href="Mi app PWA/index.html">Mi app PWA</a></li>
+    </ul>
 </body>
 </html>
